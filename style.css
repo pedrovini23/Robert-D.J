@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    font-family: "Raleway",sans-serif;
+    background:linear-gradient(#b00d1e ,#f1ca88) ;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil {
+    border-radius: 50%;
+    border: 5px solid #000000;
+}
+
+#r-age {
+
+    text-shadow: 0px 0px 1px white;
+}
+
+#r-born {
+    text-shadow: 0 0 1px white;
+    
+}
+
+.works {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(33, 21, 21);
+    background-color: #a9787d;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.works:hover .hover-text {
+    opacity: 0;
+}
+
+#iron-man:hover {
+    background-image: url("/images/gif-iron-man.gif");
+    width: 500px;
+    height: 250px;
+
+
+}
+
+#chaplin:hover {
+    background-image: url("images/gif-chaplin.gif");
+    width: 530px;
+    height: 331px;
+}
+
+#trovao:hover {
+    background-image: url("/images/gif-trovao.gif");
+    width: 540px;
+    height: 230px;
+}
+
+#sher:hover {
+    background-image: url("/images/gif=sherlock2.gif");
+    width: 500px;
+    height: 213px;
+}
+
+#opp:hover {
+    background-image: url("/images/gif-oppen2.webp");
+    width: 540px;
+    height: 304px;
+}
